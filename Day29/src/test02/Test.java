@@ -24,6 +24,7 @@ public class Test{
 			System.out.println("커넥션 생성 완료!!");
 			
 			//3. SQL 명령어 작성
+			//String sql = "insert into books(title, publisher, price, year) values ('월간 이밥차', '이밥차 편집부', 2000, '2016')";
 			String sql = "insert into books(title, publisher, price, year) values ('월간 이밥차', '이밥차 편집부', 2000, '2016')";
 			
 			//4. Statement 객체 생성
